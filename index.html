@@ -18,24 +18,16 @@
       <header>
         <h1>JavaScript Core II Lesson 1</h1>
         <form action="#">
-          <input type="text" placeholder="Title..." />
-          <input type="submit" value="Add" />
+          <input type="text" placeholder="Title..."  id="input-text"/>
+          <input type="submit" value="Add" onclick="insertTask()" />
         </form>
       </header>
       <main>
-        <ul>
-          <li>
-            <i class="fas fa-check"></i>
-            <span>Objects</span>
-            <i class="fas fa-times"></i>
-          </li>
-          <li>
-            <i class="fas fa-check"></i>
-            <span>Objects</span>
-            <i class="fas fa-times"></i>
-          </li>
+        <ul id="list">
         </ul>
       </main>
+
+      <script src="assets/script.js"></script>
     </div>
   </body>
 </html>

@@ -41,9 +41,12 @@ header form {
 header form input[type="text"] {
   flex-grow: 3;
   font-size: 1rem;
-  color: #bab4b1;
   border: none;
   padding: 10px;
+}
+
+header form input[type="text"]::placeholder{
+    color: #bab4b1;
 }
 
 header form input[type="submit"] {
